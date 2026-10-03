@@ -1,0 +1,6 @@
+[
+  "assert count_ways(1) == 0",
+  "assert count_ways(2) == 3",
+  "assert count_ways(4) == 11",
+  "assert count_ways(8) == 153"
+]

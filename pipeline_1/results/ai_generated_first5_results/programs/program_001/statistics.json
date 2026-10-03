@@ -1,0 +1,40 @@
+{
+  "generated_test_count": 4,
+  "generated_tests_passed": 4,
+  "generated_test_pass_rate": 1.0,
+  "execution_evidence_supplied": true,
+  "path_evidence_supplied": true,
+  "total_paths": 16,
+  "covered_paths": 4,
+  "path_coverage": 0.25,
+  "complete_path_coverage": false,
+  "branches": [
+    {
+      "id": "11",
+      "kind": "for",
+      "line": 6
+    },
+    {
+      "id": "12",
+      "kind": "for",
+      "line": 8
+    },
+    {
+      "id": "13",
+      "kind": "for",
+      "line": 10
+    },
+    {
+      "id": "32",
+      "kind": "for",
+      "line": 11
+    }
+  ],
+  "objective": "coverage",
+  "statistical_runs": null,
+  "statistical_correct_runs": null,
+  "estimated_suite_correctness": null,
+  "estimated_at_least_one_correct_suite": null,
+  "quality_verdict": "NEEDS_REVIEW",
+  "task_id": 1
+}

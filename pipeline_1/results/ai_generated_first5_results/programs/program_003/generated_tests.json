@@ -1,0 +1,6 @@
+[
+  "assert is_not_prime(1) == False",
+  "assert is_not_prime(2) == False",
+  "assert is_not_prime(3) == False",
+  "assert is_not_prime(9) == True"
+]
