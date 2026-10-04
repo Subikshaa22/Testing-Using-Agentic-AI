@@ -1,0 +1,47 @@
+{
+  "_comment": "User-specified properties per MBPP task id, used by: python main.py --mode property --properties properties_example.json",
+  "17": [
+    "For any non-negative side length a, the function returns 4 * a.",
+    "For side length 0, the function returns 0."
+  ],
+  "151": [
+    "If the two positive integers have no common factor greater than 1 (gcd is 1), the function returns True.",
+    "If the two positive integers share a common factor greater than 1, the function returns False.",
+    "The result is symmetric: is_coprime(x, y) == is_coprime(y, x)."
+  ],
+  "280": [
+    "If the item is present in the list, the function returns (True, i) where i is the index of the first occurrence of the item.",
+    "If the item is not present in the list, the first element of the returned tuple is False.",
+    "For an empty list, the first element of the returned tuple is False."
+  ],
+  "492": [
+    "If the item is present in the sorted list, the function returns True.",
+    "If the item is not present in the sorted list (smaller than all elements, larger than all elements, or between two elements), the function returns False.",
+    "For an empty list, the function returns False."
+  ],
+  "11": [
+    "If the character does not occur in the string, the string is returned unchanged.",
+    "If the character occurs exactly once, the result is the string with that single occurrence removed.",
+    "If the character occurs two or more times, only its first and last occurrences are removed; all other characters, including middle occurrences of the character, are kept in their original order."
+  ],
+  "68": [
+    "A non-decreasing list (each element >= the previous one) returns True.",
+    "A non-increasing list (each element <= the previous one) returns True.",
+    "A list that both increases and decreases somewhere returns False.",
+    "A list with zero or one element, or with all elements equal, returns True."
+  ],
+  "188": [
+    "If n can be written as a*a * b*b with integers a >= 2 and b >= 2 (for example 16 = 2*2 * 2*2, 36 = 2*2 * 3*3, 144), the function returns True.",
+    "If n is the square of a prime number (for example 4, 9, 25, 49), it cannot be written with both a and b >= 2, so the function returns False (1 does not count as one of the squares).",
+    "If n is not a perfect square (for example 2, 30, 50), the function returns False."
+  ],
+  "31": [
+    "The result is a list of exactly k distinct integers taken from the input lists.",
+    "The result contains the k integers that occur in the most input lists; when several integers tie for the last place, any of them may be chosen.",
+    "The result is ordered from the least frequent to the most frequent of the selected integers."
+  ],
+  "388": [
+    "For n >= 1, if n is itself a power of 2, the function returns n.",
+    "For n >= 1 that is not a power of 2, the function returns the largest power of 2 strictly less than n (the result r is a power of 2, r < n and 2*r > n)."
+  ]
+}
